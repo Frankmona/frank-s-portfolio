@@ -1,0 +1,29 @@
+
+/* styling for dark mode toggle */
+/* Light Mode Styles */
+body {
+    background-color: #ffffff;
+    color: #333333;
+  }
+  
+  header {
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  /* Dark Mode Styles */
+  body.dark-mode {
+    background-color: #333333;
+    color: #ffffff;
+  }
+  
+  body.dark-mode header {
+    background-color: #1a1a1a;
+  }
+
+   /* text format for dark mode */
+  .non-italic {
+    font-style: normal; /* Set font style to normal (non-italic) */
+  }
+
+  /* end of styling for dark mode toggle */
