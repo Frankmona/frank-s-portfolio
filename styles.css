@@ -12,18 +12,52 @@ body {
   }
   
   /* Dark Mode Styles */
-  body.dark-mode {
-    background-color: #333333;
-    color: #ffffff;
+  body.dark-mode, body.dark-mode * {
+    background-color: #0b0b0b !important;
+    color: #ffffff !important;
   }
   
-  body.dark-mode header {
+  /* body.dark-mode header {
     background-color: #1a1a1a;
-  }
+  } */
 
-   /* text format for dark mode */
+   /* text format for dark mode logo text */
   .non-italic {
     font-style: normal; /* Set font style to normal (non-italic) */
   }
 
   /* end of styling for dark mode toggle */
+
+  .head{
+    font-family:'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+  }
+
+  .card-title{
+    font-size: 35px !important;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+  }
+
+  .card-text{
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .skills{
+    font-family:'Open Sans', sans-serif;
+    font-size: 35px;
+    font-weight: bolder;
+  }
+
+  .desktop_image{
+    display: none;
+  }
+
+
+  @media (min-width: 992px) { 
+
+    .title_text{
+      font-size: 55px;
+    }
+
+  }
