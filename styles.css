@@ -1,4 +1,8 @@
 
+body{
+  overflow-y:hidden ;
+}
+
 /* styling for dark mode toggle */
 /* Light Mode Styles */
 body {
