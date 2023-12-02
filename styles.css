@@ -45,7 +45,7 @@ body {
 
   .skills{
     font-family:'Open Sans', sans-serif;
-    font-size: 35px;
+    font-size: 25px !important;
     font-weight: bolder;
   }
 
@@ -53,11 +53,27 @@ body {
     display: none;
   }
 
+  .project_title{
+    font-family: 'Playfair Display', serif;
+  }
+ 
+  
+
 
   @media (min-width: 992px) { 
 
     .title_text{
       font-size: 55px;
     }
+
+    .project_h1{
+      font-size: 55px!important;
+   }
+
+   .skills{
+    font-family:'Open Sans', sans-serif;
+    font-size: 35px !important;
+    font-weight: bolder;
+  }
 
   }
