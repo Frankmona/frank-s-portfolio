@@ -103,8 +103,8 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-top: -500px;
-  visibility: hidden;
-  z-index: 100000;
+  display: none;
+  
 }
 
 .success_article{
@@ -143,6 +143,7 @@ body {
 
 .success-message.success form{
   visibility: hidden;
+  
 }
 
 .success-message.success form p{
@@ -152,7 +153,7 @@ body {
 
 
 .success-message.success .success_box{
-  visibility: visible;
+  display: block;
 }
 /* end of sucess box */
 /* end form validation */
